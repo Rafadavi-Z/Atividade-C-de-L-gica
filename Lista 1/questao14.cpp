@@ -31,9 +31,8 @@ int main(){
 // time(NULL) : retorna os segundos desde 1 de janeiro de 1970
 // time_t : data type usada para guardar uma grande quantidade de dados em segundos, t2 é a variavel que guarda os dados
 // localtime() : transforma os dados de segundos em anos, dias, horas, minutos e segundos baseado no fuso horario do computador
-
-// struct tm *local_time: ??? tem alguma coisa haver com ponteiro, não entendi
-
+// struct tm : tipo de data type que armazena em campos separados, tm é algo pre-definido pela biblioteca
+// *local_time: ponteiro ???
 // local_time->tm_year : de todas as opções pega apenas o ano, mas como começa a contar apartir de 1900, 2026 sairia como 126 por isso adicionamos "+ 1900"
 
 
